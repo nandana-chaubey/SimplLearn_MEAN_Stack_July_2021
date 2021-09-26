@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <script src="simple.js"></script> -->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="menu.js"></script>
+</head>
+
+<body class="bg-primary">
+    <h1 class="text-center text-white">Welcome to My Blog</h1>
+    <div class="container py-5">
+        <h3 class="text-center text-white">
+            Create your Blog Here
+        </h3>
+        <div class="row">
+            <div class="card">
+                Title : <input type="text" id="name" /><br />
+            </div>
+        </div>
+        <div class="row">
+            <div class="card">
+                Descrition :<textarea id="age"></textarea><br />
+                <input type="button" value="Add" onclick="addData()" />
+                <hr />
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div id="main">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,90 @@
+h1 {
+  background-color: rgb(82, 163, 163);
+}
+.btn{
+  border-radius: 0;
+}
+
+.option{
+  background-color:#cadaee;
+  font-size:20px;
+  padding:10px;
+  margin:3px;
+}
+  #quiz .options input[type=checkbox] {
+      height:22px;
+      width:22px;
+  }
+
+.cursor-pointer{
+  cursor: pointer;
+}
+
+.result-question{
+  background-color:#eee;
+  margin:4px;
+  padding:6px;
+}
+
+@media only screen and (max-width: 480px) {
+  h1,.h1{
+      font-size:22px;
+
+  }
+  h2,.h2{
+      font-size:20px;
+  }
+  h3,.h3{
+      font-size:18px;
+  }
+  .option {
+      font-size: 16px;
+      padding: 6px;
+  }
+}
+.pagination {
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+  border-radius: .25rem;
+}
+.page-link:hover {
+  z-index: 2;
+  color: #0056b3;
+  text-decoration: none;
+  background-color: #e9ecef;
+  border-color: #dee2e6;
+}
+.page-link {
+  position: relative;
+  display: block;
+  padding: .5rem .75rem;
+  margin-left: -1px;
+  line-height: 1.25;
+  color: #007bff;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+}
+.page-item.active .page-link {
+  z-index: 1;
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  white-space: nowrap;
+  border: 0;
+}
+.page-item.disabled .page-link {
+  color: #6c757d;
+  pointer-events: none;
+  cursor: auto;
+  background-color: #fff;
+  border-color: #dee2e6;
+}
